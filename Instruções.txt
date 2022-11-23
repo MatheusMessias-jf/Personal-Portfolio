@@ -1,0 +1,16 @@
+usar extenção px to rem para não precisar fazer cálculos de conversão
+
+
+Distanciamento dos elementos apesar de ser exigência
+seguir exatamente as medidas
+personalizar como portfolio pessoal, colocar minha foto
+
+
+pegar os ícones dos clientes na internet e utilizar propriedade do CSS para criar efeito HOVER de ficar preto e branco
+dividir o site por seçoes
+usar o svg do icone para trocar a cor dele sem precisar trocar a imagem 
+Utilizar o style guide
+menu âncora, fixo, fica na tela mesmo dando scroll, clicando em alguma seção do menu ele deve rolar para a seção correspondente
+para fazer isso basta criar uma tag <a href="name"> e na seção correspondente cria a tag <a name="name">
+
+fazendo um css do botão, basta duplicar no HTML, reaproveitar o máximo de código possível
