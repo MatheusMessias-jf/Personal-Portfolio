@@ -9,6 +9,21 @@
 
 }
 
+a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.contact-section {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
 body {
     max-width: 1920px;
 }
@@ -217,6 +232,7 @@ button {
     padding-right: 300px;
     align-items: center;
     background: #F0F1F3;
+    padding-bottom: 140px;
 }
 
 .work-process h2 {
@@ -311,6 +327,7 @@ button {
     align-items: center;
     justify-content: center;
     background: #FFFFFF;
+    padding-top: 100px;
 }
 
 .portfolio h1 {
@@ -459,6 +476,7 @@ button {
     font-size: 18px;
     line-height: 24px;
     color: #A5ACB5;
+    width: 581px;
 }
 
 .blog {
@@ -619,6 +637,10 @@ button {
     border-radius: 6px;
 }
 
+.what-i-do-card:hover {
+    border-left: 2px solid #A53DFF;
+}
+
 .happy-clients {
     display: flex;
     flex-direction: column;
@@ -744,7 +766,7 @@ button {
 
 .project-discuss-card {
     background: #FFFFFF;
-    box-shadow: 0px 12px 64px rgba(28, 25, 25, 0.12);
+
     border-radius: 10px;
     width: 336px;
     height: 96px;
@@ -752,6 +774,10 @@ button {
     align-items: center;
     padding: 24px;
     gap: 13px;
+}
+
+.project-discuss-card:hover {
+    box-shadow: 0px 12px 64px rgba(28, 25, 25, 0.12);
 }
 
 .project-discuss-card-img {
@@ -821,6 +847,18 @@ button {
     border-radius: 4px;
 }
 
+.social-button {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-button:hover {
+    box-shadow: 0px 12px 64px rgba(28, 25, 25, 0.12);
+}
+
 footer {
     display: flex;
     flex-direction: row;
@@ -852,7 +890,7 @@ footer {
 input:hover {
     transform: scale(1.01);
     transition: all 0.5s;
-    color: var(--purple-500);
+
 }
 
 footer p {
@@ -863,13 +901,34 @@ textarea:focus,
 input:focus,
 select:focus {
     box-shadow: 0 0 0 0;
-
     outline: 0;
+    color: #A53DFF;
 }
 
-input::placeholder {
-    color: var(--purple-500);
+.download {
+    background-color: #FFFFFF;
+    color: #A53DFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: fit-content;
+    gap: 12px;
+    border: 1px solid #A53DFF;
+    border-radius: 4px;
+    padding: 0px 24px;
 }
 
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
 
-
+.submit {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 12px;
+}
